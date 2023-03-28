@@ -30,6 +30,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Image"
   },
   {
@@ -74,7 +75,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-28 16:30:35.030759",
+ "modified": "2023-03-28 16:33:33.947472",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
