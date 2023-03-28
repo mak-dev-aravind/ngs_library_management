@@ -78,7 +78,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-25 20:46:44.576697",
+ "modified": "2023-03-28 08:44:47.940492",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -96,6 +96,27 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "LibraryMember",
+   "share": 1
   }
  ],
  "sort_field": "modified",
