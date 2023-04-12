@@ -1,7 +1,8 @@
 {
+ "_liked_by": "[\"Administrator\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:first_name",
+ "autoname": "LM.####",
  "creation": "2023-03-28 16:38:44.582681",
  "default_view": "List",
  "doctype": "DocType",
@@ -31,12 +32,14 @@
   {
    "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Email"
+   "label": "Email",
+   "options": "Email"
   },
   {
    "fieldname": "phone",
    "fieldtype": "Data",
-   "label": "Phone"
+   "label": "Phone",
+   "options": "Phone"
   },
   {
    "fieldname": "full_name",
@@ -48,11 +51,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-28 18:20:06.962838",
+ "modified": "2023-04-11 19:16:43.442733",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "LibraryMember",
- "naming_rule": "By fieldname",
+ "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
   {
