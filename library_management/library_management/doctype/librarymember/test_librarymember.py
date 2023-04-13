@@ -6,4 +6,5 @@ from frappe.tests.utils import FrappeTestCase
 
 
 class TestLibraryMember(FrappeTestCase):
-	pass
+	def test_before_save(self):
+		pass
