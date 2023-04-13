@@ -6,4 +6,10 @@ from frappe.model.document import Document
 
 
 class LibraryTransaction(Document):
-	pass
+	def before_submit(self):
+		if self.type == 'Issue':
+			self.validate_issue()
+			# set the article status to be Issued
+			article = frappe.get_doc('Article', self.article)
+			article.status = 'Issued'
+			article.save()
