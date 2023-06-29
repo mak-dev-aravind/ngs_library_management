@@ -1,4 +1,5 @@
 {
+ "_liked_by": "[\"Administrator\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:article_name",
@@ -17,8 +18,7 @@
   "section_break_i396",
   "description",
   "section_break_9ely",
-  "image",
-  "test"
+  "image"
  ],
  "fields": [
   {
@@ -30,6 +30,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Image"
   },
   {
@@ -69,16 +70,12 @@
   {
    "fieldname": "section_break_9ely",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "test",
-   "fieldtype": "Data",
-   "label": "test"
   }
  ],
+ "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-28 08:44:47.940492",
+ "modified": "2023-04-11 17:53:23.793050",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
